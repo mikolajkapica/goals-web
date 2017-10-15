@@ -224,11 +224,14 @@ footer {
     z-index: 1; }
 
   h2 {
-    font-size: 40px;
+    font-size: 60px;
     hyphens: auto; }
 
   header {
     padding: 20px; } }
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 40px; } }
 .menu-overlay {
   display: none; }
   .menu-overlay .links-1 {
