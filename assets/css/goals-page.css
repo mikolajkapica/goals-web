@@ -94,6 +94,7 @@ h1 {
 
 h2 {
   overflow: hidden;
+  hyphens: auto;
   font-size: 64px; }
 
 p {
@@ -210,11 +211,14 @@ footer {
   header .wrapper h2 {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 450px;
     right: 50px;
     left: 30px;
     color: white;
     z-index: 1; }
+
+  h2 {
+    font-size: 48px; }
 
   header {
     padding: 20px; } }
