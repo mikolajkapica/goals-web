@@ -8,6 +8,16 @@ $(document).ready(function(){
     $(".menu-overlay").toggleClass("menu-show");
   });
 });
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(".menu-bar").toggleClass("menu-black");
+  });
+});
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $("body").toggleClass("fix");
+  });
+});
 // $(document).ready(function(){
 // 	$('.i-one').click(function(){
 // 		$('.one').toggleClass('visible');
