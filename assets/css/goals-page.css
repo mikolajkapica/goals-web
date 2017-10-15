@@ -180,7 +180,8 @@ section {
 
 .hide {
   position: fixed;
-  top: -100px; }
+  top: -100px;
+  opacity: 0; }
 
 .show {
   top: 0;
@@ -256,8 +257,5 @@ footer {
   position: fixed;
   background-color: transparent;
   color: white; }
-
-.fix {
-  position: fixed; }
 
 /*# sourceMappingURL=goals-page.css.map */

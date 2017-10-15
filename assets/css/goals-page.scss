@@ -108,6 +108,7 @@ section {
 .hide {
   position: fixed;
   top: -100px;
+  opacity: 0;
 }
 .show {
   top: 0;
@@ -197,5 +198,5 @@ footer {
   color: white;
 }
 .fix {
-  position: fixed;
+
 }
