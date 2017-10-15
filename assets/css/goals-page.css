@@ -94,6 +94,7 @@ h1 {
 
 h2 {
   overflow: hidden;
+  color: red;
   hyphens: auto;
   font-size: 64px; }
 
