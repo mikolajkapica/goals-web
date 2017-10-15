@@ -198,10 +198,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .links {
-    display: none; }
-
-  h2 {
-    hyphens: auto; } }
+    display: none; } }
 @media only screen and (min-width: 600px) {
   div.menu-show, div.menu-overlay, .links-1 {
     display: none;
@@ -223,7 +220,8 @@ footer {
     z-index: 1; }
 
   h2 {
-    font-size: 48px; }
+    font-size: 35px;
+    hyphens: auto; }
 
   header {
     padding: 20px; } }

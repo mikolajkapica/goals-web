@@ -130,9 +130,6 @@ footer {
   .links {
     display: none;
   }
-  h2 {
-    hyphens: auto;
-  }
 }
 @media only screen and (min-width:600px){
   div.menu-show, div.menu-overlay, .links-1 {
@@ -160,7 +157,8 @@ footer {
     z-index: 1;
   }
   h2 {
-    font-size: 48px;
+    font-size: 35px;
+    hyphens: auto;
   }
   header {
     padding: 20px;
