@@ -12,8 +12,8 @@ h1 {
 }
 h2 {
   overflow: hidden;
-  color: red;
-  // word-break: break-all;
+  color: blue;
+  word-break: keep-all;
   hyphens: auto;
   font-size: 64px;
 }
