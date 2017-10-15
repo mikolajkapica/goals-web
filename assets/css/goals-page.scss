@@ -1,8 +1,16 @@
 @import "hamburger-icon";
+body {
+  opacity: 0;
+  transition: 2s;
+}
+.load {
+  opacity: 1;
+}
 h1 {
   font-size: 100px;
 }
 h2 {
+  overflow: hidden;
   font-size: 64px;
 }
 p {
@@ -85,6 +93,7 @@ header {
   }
 }
 section {
+  width: 100vw;
   h2, p {
     width: 970px;
     max-width: 90%;

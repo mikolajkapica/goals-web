@@ -215,7 +215,7 @@ $dipper6.waypoint(function (direction) {
 //     });
 // });
 $(document).ready(function() {
-    $('body').hide().fadeIn(1000);
+    $('body').addClass('load');
 });
 
 // //smooth scroll
