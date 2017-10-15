@@ -1,6 +1,7 @@
 @import "hamburger-icon";
 body {
   opacity: 0;
+  font-family:"Basis Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   transition: 2s;
 }
 .load {
@@ -25,7 +26,6 @@ p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Basis Grotesque"
 }
 .menu-bar {
   height: 100px;
