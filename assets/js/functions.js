@@ -1,3 +1,13 @@
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+});
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(".menu-overlay").toggleClass("menu-show");
+  });
+});
 // $(document).ready(function(){
 // 	$('.i-one').click(function(){
 // 		$('.one').toggleClass('visible');
@@ -72,17 +82,54 @@
 //
 // });
 //
-//show-hide
-// var $dipper = $('.dipper');
-//
-// $dipper.waypoint(function (direction) {
-//   if (direction == 'down') {
-//     $dipper.addClass('js-dipper-animate');
-//   }
-//   else {
-//     $dipper.removeClass('js-dipper-animate');
-//   }
-// }, { offset: '50%' });
+// show-hide
+var $dipper1 = $('.dipper-1');
+
+$dipper1.waypoint(function (direction) {
+  if (direction == 'down') {
+    $dipper1.addClass('js-dipper-animate');
+  }
+}, { offset: '50%' });
+
+var $dipper2 = $('.dipper-2');
+
+$dipper2.waypoint(function (direction) {
+  if (direction == 'down') {
+    $dipper2.addClass('js-dipper-animate');
+  }
+}, { offset: '50%' });
+
+var $dipper3 = $('.dipper-3');
+
+$dipper3.waypoint(function (direction) {
+  if (direction == 'down') {
+    $dipper3.addClass('js-dipper-animate');
+  }
+}, { offset: '50%' });
+
+var $dipper4 = $('.dipper-4');
+
+$dipper4.waypoint(function (direction) {
+  if (direction == 'down') {
+    $dipper4.addClass('js-dipper-animate');
+  }
+}, { offset: '50%' });
+
+var $dipper5 = $('.dipper-5');
+
+$dipper5.waypoint(function (direction) {
+  if (direction == 'down') {
+    $dipper5.addClass('js-dipper-animate');
+  }
+}, { offset: '50%' });
+
+var $dipper6 = $('.dipper-6');
+
+$dipper6.waypoint(function (direction) {
+  if (direction == 'down') {
+    $dipper6.addClass('js-dipper-animate');
+  }
+}, { offset: '50%' });
 // check
 
 // $(document).ready(function(){
@@ -168,7 +215,7 @@
 //     });
 // });
 $(document).ready(function() {
-    $('body').hide().fadeIn(500);
+    $('body').hide().fadeIn(1000);
 });
 
 // //smooth scroll
